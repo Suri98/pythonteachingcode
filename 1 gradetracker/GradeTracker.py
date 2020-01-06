@@ -7,7 +7,7 @@ needs to have login to protect the student data
 import statistics as s
 
 #add constants next
-admins = {'Faculty1':'ABC123','Faculty2':'ABC123'}
+admins = {'suriyah':'Henry','Faculty2':'ABC123'}
 
 #Like the admins above is a dictionary but of students. Dictionaries use curly brackets with colons to associate keys with values. In this case, each student's first name is a key. The values are lists of grades. 
 #Lists are denoted with square brackets. Values are indexed within starting with 0 for the first one. Each value is separated by commas.
@@ -72,7 +72,7 @@ def main():
     else:
         print('Valid option not selected.') #need to cause it to reprompt
 
-login = input('User: ')
+login = input('Please enter your username: ')
 
 if login in admins:
     password = input('Password: ')
